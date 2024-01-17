@@ -37,8 +37,8 @@
 }
 
 .brand {
-    padding-left: calc(50% - 800px/2);
-    padding-right: calc(50% - 800px/2);
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
     display: flex;
     align-items: center;
     background-color: #F1E4E6;
@@ -103,12 +103,16 @@
 
 .big_card {
     grid-column: 1/4;
+    min-height:111px;
 }
 
 .category_card_img {
     width: 100%;
+    height: 100%;
     position: inherit;
     z-index: -1;
+    object-fit: cover;
+    
 }
 
 .category_card_heading {
