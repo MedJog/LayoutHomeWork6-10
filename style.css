@@ -176,6 +176,48 @@
 
 .catalog_item_img {
     width: 100%;
+    position: relative;
+}
+
+.catalog_item_img:hover .catalog_item_hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+}
+.catalog_item_hover {
+    background: rgba(58, 56, 56, 0.86);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+    display: none;
+}
+
+.hover_button {
+    background: transparent; 
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    padding: 14px 16px;
+    border: 1px solid #FFFFFF;
+}
+.hover_button:hover {
+    box-shadow: 1px 1px #FFFFFF;
+}
+
+.hover_button_text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .catalog_item_information {
@@ -396,12 +438,7 @@
 .icons:hover svg path {
     fill:#FFFFFF;
 }
-
-
-
-
-
-
+ 
 
 @media(max-width:1024px) {
     .center {
