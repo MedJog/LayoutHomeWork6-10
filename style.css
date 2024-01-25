@@ -313,16 +313,17 @@
     background-size: cover; 
     position: relative;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    align-items: center; 
     gap: 223px; 
+    padding-top: 97px;
+    padding-bottom: 126px;
     
 }
 .subscription_left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 97px;
-    padding-bottom: 126px;
     gap: 30px;
 }
 
@@ -381,8 +382,7 @@
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
-    width: 170px;
-    height: 36px;
+    padding: 16px 12px;
     text-align: center;
 }
 .subscribe_button {
@@ -397,6 +397,7 @@
     font-weight: 400;
     line-height: normal;
     background-color: #F16D7F;
+    padding: 16px 12px;
 }
 .subscribe_button:hover {
     box-shadow: 1px 1px 5px F16D7F;
@@ -533,6 +534,10 @@
 
     .mobile_version {
         display: none;
+    }
+    .subscription {
+        padding-top: 54px;
+        padding-bottom: 115px;
     }
     .footer {
         display: flex;
