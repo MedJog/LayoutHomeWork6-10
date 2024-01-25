@@ -397,7 +397,7 @@
     padding: 16px 12px;
 }
 .subscribe_button:hover {
-    box-shadow: 1px 1px 5px F16D7F;
+    box-shadow: 1px 1px 5px;
     transform: scale(1.1);
 }
 
@@ -467,7 +467,7 @@
     }
 
     .fetured_items {
-        padding-top: 54, 5px;
+        padding-top: 54px;
         display: flex;
         flex-direction: column;
         justify-content: center;
