@@ -206,18 +206,15 @@
     align-items: center;
     padding: 14px 16px;
     border: 1px solid #FFFFFF;
-}
-.hover_button:hover {
-    box-shadow: 1px 1px #FFFFFF;
-}
-
-.hover_button_text {
     color: #FFF;
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.hover_button:hover {
+    box-shadow: 1px 1px #FFFFFF;
 }
 
 .catalog_item_information {
